@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="..\css\stil.css">
+        <script src="https://use.fontawesome.com/68301fa55c.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/68301fa55c.js"></script>
+
+    </head>
+    <body>
+        <header id="header">
+            <div id="center">
+              <h1>Programming languages</h1>
+            </div>
+            <nav>
+              <ul id="head">
+                <li>html</li>
+                <li>/</li>
+                <li>css</li>
+                <li>/</li>
+                <li>javaScript</li>
+                <li>/</li>
+                <li>react</li>
+              </ul>
+            </nav>
+          </header>
+          <main>
+            <div id="left">
+              <button id="btnLeft">
+                Change color
+              </button>
+              <button id="btnText" onclick="ispis()">
+                Print text
+              </button>
+              <p id="p">
+          
+              </p>
+            </div>
+            <div id="right">
+              <form id="addForm" class="form-inline mb-3">
+                <input type="text" class="form-control mr-2" id="item" placeholder="Napiši 3 jezika koja ćeš naučiti">
+                <input type="submit" class="btn btn-dark" value="Submit" id="submit">
+              </form>
+              <div id="lista">
+          
+                <ul id="items" class="list-group">
+                  <li class="list-group-item">Javascript <button class="btn delete">X</button></li>
+          
+                </ul>
+              </div>
+            </div>
+          </main>
+          <footer>
+            <div id="footer">
+              <h4>
+                The time by which I will be employed
+              </h4>
+              <ul>
+                <li><span id="days" class="days"></span>Days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+              </ul>
+            </div>
+          </footer>
+          
+
+          <script src="..\js\index.js"></script> 
+    </body>
+</html>
